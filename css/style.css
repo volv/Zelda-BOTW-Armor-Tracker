@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'Hylia Serif';
+  src: url('http://volv.org/zelda/font/HyliaSerifBeta-Regular.otf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #007EA8 url(http://volv.org/zelda/images/background.jpg) top left no-repeat;
+  background-size: cover;
+  font-family: Georgia, Serif;
+  text-align: center;
+  padding-top: 10px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+canvas {
+  background: url(http://volv.org/zelda/images/zeldangle.gif);
+}
+
+h1 {
+  font-family: "Hylia Serif";
+  margin-bottom: 10px;
+}
+
+.setContainer {
+  width: 45%;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (max-width: 600px) {
+  .setContainer {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+  }
+}
+
+.itemSet {
+  width: 95%;
+  margin: auto;
+  min-width: 200px;
+  margin-top: 5px;
+  
+}
+
+.setHeader {
+  font-family: 'Hylia Serif';
+  display: inline-block;
+  background: #008CA5;
+  width: 100%;
+  padding-left: 8px;
+}
+
+.setHeader:hover {
+  background: #007388;
+  cursor: pointer;
+}
+
+.setIncluded {
+  float: right;
+  padding-right: 8px;
+}
+
+.setDetails {
+  background: rgba(155, 92, 67, 0.6);
+  overflow: hidden;
+  transition: all 0.5s;
+  max-height: 300px;
+}
+
+.setToggle {
+  position: absolute;
+  visibility: hidden;
+}
+
+.setToggle:checked ~ div {
+  max-height: 0px;
+}
+
+.setDetails table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+input[type=checkbox]:hover {
+  width: 16px;
+  height: 16px;
+}
+
+.item {
+  display: inline-block;
+}
+
+.item:hover {
+  box-shadow: 0px 0px 1px 0.5px goldenrod;
+}
+
+.item:active {
+  box-shadow: 0px 0px 5px 0.5px black;
+}
+
+#result {
+  background: rgba(155, 92, 67, 0.6);
+  border: solid silver 2px;
+  border-top: none;
+  padding: 8px;
+  width: 80%;
+  margin: auto;
+  columns: 3;
+  min-width: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  background: rgba(155, 92, 67, 0.6);
+  border: solid silver 2px;
+  border-bottom: none;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 8px;
+  font-family: "Hylia Serif";
+}
+
+.randomItem {
+  background: rgba(155, 92, 67, 0.6);
+  border: solid 2px silver;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: block;
+  padding: 2px;
+  background: rgba(155, 92, 67, 0.6);
+  margin-bottom: 10px;
+}

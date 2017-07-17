@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Zelda BOTW Armor Tracker - Features</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">  
+  <link rel="shortcut icon" href="favicon.png" />
+  <meta name="description" content="Zelda Breath of the Wild Armor Tracker. Work out materials required to complete upgrades. Work out what you can sell and what to keep.">
+  <meta name="keywords" content="Zelda,BOTW,Beath,Wild,Nintendo,Switch,Wii,WiiU,Joycon,Bow,Arrow,Armor,Upgrade,Tracker,Materials,Fairy,Shrine,Hylian,Soldier,Zora,Flambreaker,Guardian,Link">
+  <meta name="author" content="Volv">  
+  
+  <style>
+@font-face {
+  font-family: 'Hylia Serif';
+  src: url('http://volv.org/zelda/font/HyliaSerifBeta-Regular.otf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-align: left;
+  list-style: inside;
+}
+
+h1 {
+  font-family: "Hylia Serif";
+  margin-bottom: 10px;
+}
+
+body {
+  background: #007EA8 url(http://volv.org/zelda/images/background.jpg) top left no-repeat;
+  background-size: cover;
+  font-family: Georgia, Serif;
+  text-align: center;
+  padding-top: 10px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#result {
+  background: rgba(155, 92, 67, 0.6);
+  border: solid silver 2px;
+  border-top: none;
+  padding: 8px;
+  width: 80%;
+  margin: auto;
+  min-width: 300px;
+  column-count: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  background: rgba(155, 92, 67, 0.6);
+  border: solid silver 2px;
+  border-bottom: none;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 8px;
+  font-family: "Hylia Serif";
+}
+
+.randomItem {
+  background: rgba(155, 92, 67, 0.6);
+  border: solid 2px silver;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: block;
+  padding: 2px;
+  background: rgba(155, 92, 67, 0.6);
+  margin-bottom: 10px;
+}
+
+  </style>
+  
+</head>
+
+<body>
+
+  <h1>Features</h1>
+  <div id="setList" onselectstart="return false" class="setContainer"></div>
+  <div id="setList2" onselectstart="return false" class="setContainer"></div>
+  <div style="margin-bottom:10px;">
+    <div id="result">
+      <ul>
+        <li>Lists available armor sets in game</li>
+        <li>Displays materials required to complete armor upgrades</li>
+        <li>Click set name to collapse/expand</li>
+        <li>Checkbox to include/exclude individual sets from item count</li>
+        <li>Right click or long hold to select/deselect all checkboxes</li>
+        <li>Click each item to indicate if you have completed that upgrade (tick)</li>
+        <li>Right click any item to tick/untick whole set</li>
+        <li>Count updates based on what sets you are tracking and what items you have already upgraded</li>
+        <li>Items and quantities to finish upgrading your sets indicated at the bottom of the page</li>
+        <li>Hover over an item in this list to see what sets it is needed to finish</li>
+        <li>Click an item in this list to see the items wiki entry</li>
+        <li>Set completion/inclusion saved between visits using local storage.</li>
+      </ul>
+    </div>
+  </div>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="WF3HSNE6BK8VQ">
+    <input type="image" title="If you've found this useful please consider. Anything is much appreciated." id="pp" style="margin-bottom: 10px;" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+  </form>
+
+  <p class="footer">
+    <a href="http://volv.org">&copy; Volv 2017</a> -  
+    <a href="mailto:Steven@Bigham.com">Steven@Bigham.com</a> - 
+    <a href="http://artsyomni.com/hyliaserif">Font by Omni Jacala</a>
+  </p>
+  
+  <script>
+
+    (function(V,o,l,v){V.GoogleAnalyticsObject=l;V[l]||(V[l]=function(){
+      (V[l].q=V[l].q||[]).push(arguments)});V[l].l=+new Date;v=o.createElement('script');
+    var e=o.scripts[0];v.src='//www.google-analytics.com/analytics.js';
+    e.parentNode.insertBefore(v,e)}(window,document,'ga');
+
+    ga('create', 'UA-18264723-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</body>
+</html>
+ 

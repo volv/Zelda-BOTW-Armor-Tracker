@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Zelda BOTW Armor Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">  
+  <link rel="shortcut icon" href="favicon.png" />
+  <meta name="description" content="Zelda Breath of the Wild Armor Tracker. Work out materials required to complete upgrades. Work out what you can sell and what to keep.">
+  <meta name="keywords" content="Zelda,BOTW,Beath,Wild,Nintendo,Switch,Wii,WiiU,Joycon,Bow,Arrow,Armor,Upgrade,Tracker,Materials,Fairy,Shrine,Hylian,Soldier,Zora,Flambreaker,Guardian,Link">
+  <meta name="author" content="Volv">
+</head>
+
+<body>
+  <h1>Armor Sets</h1>
+  <div id="setList" onselectstart="return false" class="setContainer"></div>
+  <div id="setList2" onselectstart="return false" class="setContainer"></div>
+  <div>
+    <h3>Items Required</h3>
+    <div id="result"></div>
+    <canvas id="randomHead" class="randomItem"></canvas>
+    <canvas id="randomChest" class="randomItem"></canvas>
+    <canvas id="randomLeg" class="randomItem"></canvas>
+  </div>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="WF3HSNE6BK8VQ">
+    <input type="image" title="If you've found this useful please consider. Anything is much appreciated." id="pp" style="margin-bottom: 10px;" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+  </form>
+
+<p class="footer">
+  <a href="http://volv.org">&copy; Volv 2017</a> - 
+  <a href="mailto:Steven@Bigham.com">Steven@Bigham.com</a> - 
+  <a href="http://volv.org/zelda/features.html" target="_blank">Features</a> -
+  <a href="http://artsyomni.com/hyliaserif">Font by Omni Jacala</a>
+</p>
+  
+  <script src="js/index.js"></script>
+
+  <script>
+
+    (function(V,o,l,v){V.GoogleAnalyticsObject=l;V[l]||(V[l]=function(){
+      (V[l].q=V[l].q||[]).push(arguments)});V[l].l=+new Date;v=o.createElement('script');
+    var e=o.scripts[0];v.src='//www.google-analytics.com/analytics.js';
+    e.parentNode.insertBefore(v,e)}(window,document,'ga');
+
+    ga('create', 'UA-18264723-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</body>
+</html>
