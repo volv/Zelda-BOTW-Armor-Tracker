@@ -1,7 +1,7 @@
 'use strict';
 
 // Sources
-// http://i.imgur.com/jBPnlPT.png
+// https://i.imgur.com/jBPnlPT.png
 // https://rankedboost.com/zelda-breath-of-the-wild/armor-upgrades/
 // Colour scheme help - https://coolors.co/737765-007ea8-9b5c43-007388-394141
 
@@ -94,7 +94,7 @@ var app = function () {
     name: "Champion's Tunic",
     pieces: [{ type: "Chest", y: 16, x: 0 }],
     checked: true,
-    upgrades: [[{ name: "Silent Princess", qty: 3 }], [{ name: "Silent Princess", qty: 3 }, { name: "Shard of Farosh's Horn", qty: 2 }], [{ name: "Silent Princess", qty: 3 }, { name: "Shard of Naydra's Horn", qty: 2 }], [{ name: "Silent Princess", qty: 3 }, { name: "Shard of Dinraal's Horn", qty: 2 }]]
+    upgrades: [[{ name: "Silent Princess", qty: 3 }], [{ name: "Silent Princess", qty: 3 }, { name: "Shard of Farosh's Horn", qty: 2 }], [{ name: "Silent Princess", qty: 3 }, { name: "Shard of Naydra's Horn", qty: 2 }], [{ name: "Silent Princess", qty: 10 }, { name: "Shard of Dinraal's Horn", qty: 2 }]]
   }, {
     name: "Hylian Set",
     pieces: [{ type: "Head", y: 0, x: 0 }, { type: "Chest", y: 0, x: 0 }, { type: "Leg", y: 0, x: 0 }],
@@ -104,7 +104,7 @@ var app = function () {
     name: "Soldier's Set",
     pieces: [{ type: "Head", y: 9, x: 0 }, { type: "Chest", y: 9, x: 0 }, { type: "Leg", y: 9, x: 0 }],
     checked: true,
-    upgrades: [[{ name: "Chuchu Jelly", qty: 5 }, { name: "Bokoblin Guts", qty: 3 }], [{ name: "Keese Eyeball", qty: 3 }, { name: "Moblin Guts", qty: 3 }], [{ name: "Lizalfos Tail", qty: 3 }, { name: "Hinox Guts", qty: 1 }], //Fixed, reddit
+    upgrades: [[{ name: "Chuchu Jelly", qty: 5 }, { name: "Bokoblin Guts", qty: 3 }], [{ name: "Keese Eyeball", qty: 3 }, { name: "Moblin Guts", qty: 3 }], [{ name: "Lizalfos Tail", qty: 3 }, { name: "Hinox Guts", qty: 1 }], //Fixed, reddit. Hat is 2,2...
     [{ name: "Lynel Hoof", qty: 2 }, { name: "Lynel Guts", qty: 2 }]]
   }, {
     name: "Snowquill Set",
@@ -125,7 +125,7 @@ var app = function () {
     name: "Flamebreaker Set",
     pieces: [{ type: "Head", y: 5, x: 0 }, { type: "Chest", y: 5, x: 0 }, { type: "Leg", y: 5, x: 0 }],
     checked: true,
-    upgrades: [[{ name: "Fireproof Lizard", qty: 3 }, { name: "Moblin Horn", qty: 3 }], [{ name: "Fireproof Lizard", qty: 3 }, { name: "Moblin Fang", qty: 4 }], [{ name: "Smotherwing Butterfly", qty: 3 }, { name: "Moblin Guts", qty: 3 }], [{ name: "Smotherwing Butterfly", qty: 5 }, { name: "Hinox Guts", qty: 2 }]]
+    upgrades: [[{ name: "Fireproof Lizard", qty: 1 }, { name: "Moblin Horn", qty: 2 }], [{ name: "Fireproof Lizard", qty: 3 }, { name: "Moblin Fang", qty: 4 }], [{ name: "Smotherwing Butterfly", qty: 3 }, { name: "Moblin Guts", qty: 3 }], [{ name: "Smotherwing Butterfly", qty: 5 }, { name: "Hinox Guts", qty: 2 }]]
   }, {
     name: "Zora Set",
     pieces: [{ type: "Head", y: 2, x: 0 }, { type: "Chest", y: 2, x: 0 }, { type: "Leg", y: 2, x: 0 }],
@@ -145,14 +145,14 @@ var app = function () {
     name: "Barbarian Set",
     pieces: [{ type: "Head", y: 12, x: 0 }, { type: "Chest", y: 14, x: 0 }, { type: "Leg", y: 13, x: 0 }],
     checked: true,
-    upgrades: [[{ name: "Lynel Horn", qty: 1 }], [{ name: "Lynel Horn", qty: 5 }, { name: "Lynel Hoof", qty: 3 }], [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 4 }], [{ name: "Lynel Guts", qty: 2 }, { name: "Dragon Horns*", qty: 1 }]],
+    upgrades: [[{ name: "Lynel Horn", qty: 1 }], [{ name: "Lynel Horn", qty: 3 }, { name: "Lynel Hoof", qty: 2 }], [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 4 }], [{ name: "Lynel Guts", qty: 2 }, { name: "Dragon Horns*", qty: 1 }]],
     individual: {
-      t1Head: [{ name: "Lynel Horn", qty: 3 }],
-      t1Chest: [{ name: "Lynel Horn", qty: 3 }],
-      t1Leg: [{ name: "Lynel Horn", qty: 3 }],
-      t2Head: [{ name: "Lynel Horn", qty: 5 }, { name: "Lynel Hoof", qty: 3 }],
-      t2Chest: [{ name: "Lynel Horn", qty: 5 }, { name: "Lynel Hoof", qty: 3 }],
-      t2Leg: [{ name: "Lynel Horn", qty: 5 }, { name: "Lynel Hoof", qty: 3 }],
+      t1Head: [{ name: "Lynel Horn", qty: 1 }],
+      t1Chest: [{ name: "Lynel Horn", qty: 1 }],
+      t1Leg: [{ name: "Lynel Horn", qty: 1 }],
+      t2Head: [{ name: "Lynel Horn", qty: 3 }, { name: "Lynel Hoof", qty: 2 }],
+      t2Chest: [{ name: "Lynel Horn", qty: 3 }, { name: "Lynel Hoof", qty: 2 }],
+      t2Leg: [{ name: "Lynel Horn", qty: 3 }, { name: "Lynel Hoof", qty: 2 }],
       t3Head: [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 8 }],
       t3Chest: [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 8 }],
       t3Leg: [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 8 }],
@@ -193,7 +193,7 @@ var app = function () {
     name: "Sand Boots",
     pieces: [{ type: "Leg", y: 14, x: 0 }],
     checked: true,
-    upgrades: [[{ name: "Molduga Fin", qty: 5 }, { name: "Hightail Lizard", qty: 10 }], [{ name: "Molduga Fin", qty: 10 }, { name: "Swift Carrot", qty: 10 }], [{ name: "Molduga Guts", qty: 2 }, { name: "Rushroom", qty: 15 }], [{ name: "Molduga Guts", qty: 5 }, { name: "Swift Violet", qty: 15 }]]
+    upgrades: [[{ name: "Molduga Fin", qty: 5 }, { name: "Hightail Lizard", qty: 10 }], [{ name: "Molduga Fin", qty: 10 }, { name: "Swift Carrot", qty: 10 }], [{ name: "Molduga Guts", qty: 2 }, { name: "Rushroom", qty: 15 }], [{ name: "Molduga Guts", qty: 4 }, { name: "Swift Violet", qty: 15 }]]
   }, {
     name: "Snow Boots",
     pieces: [{ type: "Leg", y: 18, x: 0 }],
@@ -203,12 +203,12 @@ var app = function () {
     name: "Amber Earrings",
     pieces: [{ type: "Head", y: 15, x: 5 }],
     checked: true,
-    upgrades: [[{ name: "Amber", qty: 3 }, { name: "Flint", qty: 3 }], [{ name: "Amber", qty: 10 }, { name: "Flint", qty: 3 }], [{ name: "Amber", qty: 20 }, { name: "Flint", qty: 3 }], [{ name: "Amber", qty: 30 }, { name: "Flint", qty: 3 }]]
+    upgrades: [[{ name: "Amber", qty: 5 }, { name: "Flint", qty: 3 }], [{ name: "Amber", qty: 10 }, { name: "Flint", qty: 3 }], [{ name: "Amber", qty: 20 }, { name: "Flint", qty: 3 }], [{ name: "Amber", qty: 30 }, { name: "Flint", qty: 3 }]]
   }, {
     name: "Opal Earrings",
     pieces: [{ type: "Head", y: 15, x: 4 }],
     checked: true,
-    upgrades: [[{ name: "Opal", qty: 3 }, { name: "Flint", qty: 3 }], [{ name: "Opal", qty: 8 }, { name: "Flint", qty: 3 }], [{ name: "Opal", qty: 16 }, { name: "Flint", qty: 3 }], [{ name: "Opal", qty: 20 }, { name: "Flint", qty: 3 }]]
+    upgrades: [[{ name: "Opal", qty: 5 }, { name: "Flint", qty: 3 }], [{ name: "Opal", qty: 8 }, { name: "Flint", qty: 3 }], [{ name: "Opal", qty: 16 }, { name: "Flint", qty: 3 }], [{ name: "Opal", qty: 20 }, { name: "Flint", qty: 3 }]]
   }, {
     name: "Diamond Circlet",
     pieces: [{ type: "Head", y: 15, x: 0 }],
@@ -263,7 +263,7 @@ var app = function () {
     name: "Fierce Diety Set (Amiibo)",
     pieces: [{ type: "Head", y: 14, x: 9 }, { type: "Chest", y: 16, x: 4 }, { type: "Leg", y: 0, x: 0 }],
     checked: false,
-    upgrades: [[{ name: "Hinox Toenail", qty: 5 }, { name: "Dragon Scales*", qty: 1 }], [{ name: "Hinox Tooth", qty: 5 }, { name: "Dragon Claws*", qty: 1 }], [{ name: "Hinox Guts", qty: 5 }, { name: "Dragon Fangs*", qty: 1 }], [{ name: "Lynel Guts", qty: 5 }, { name: "Dragon Horns*", qty: 1 }]],
+    upgrades: [[{ name: "Hinox Toenail", qty: 5 }, { name: "Dragon Scales*", qty: 1 }], [{ name: "Hinox Tooth", qty: 5 }, { name: "Dragon Claws*", qty: 1 }], [{ name: "Hinox Guts", qty: 2 }, { name: "Dragon Fangs*", qty: 1 }], [{ name: "Lynel Guts", qty: 2 }, { name: "Dragon Horns*", qty: 1 }]],
     individual: {
       t1Head: [{ name: "Hinox Toenail", qty: 5 }, { name: "Dinraal's Scale", qty: 1 }],
       t1Chest: [{ name: "Hinox Toenail", qty: 5 }, { name: "Naydra's Scale", qty: 1 }],
