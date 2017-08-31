@@ -153,9 +153,9 @@ var app = function () {
       t2Head: [{ name: "Lynel Horn", qty: 3 }, { name: "Lynel Hoof", qty: 2 }],
       t2Chest: [{ name: "Lynel Horn", qty: 3 }, { name: "Lynel Hoof", qty: 2 }],
       t2Leg: [{ name: "Lynel Horn", qty: 3 }, { name: "Lynel Hoof", qty: 2 }],
-      t3Head: [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 8 }],
-      t3Chest: [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 8 }],
-      t3Leg: [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 8 }],
+      t3Head: [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 4 }],
+      t3Chest: [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 4 }],
+      t3Leg: [{ name: "Lynel Guts", qty: 1 }, { name: "Lynel Hoof", qty: 4 }],
       t4Head: [{ name: "Lynel Guts", qty: 2 }, { name: "Shard of Dinraal's Horn", qty: 1 }],
       t4Chest: [{ name: "Lynel Guts", qty: 2 }, { name: "Shard of Farosh's Horn", qty: 1 }],
       t4Leg: [{ name: "Lynel Guts", qty: 2 }, { name: "Shard of Naydra's Horn", qty: 1 }]
